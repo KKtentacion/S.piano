@@ -1,0 +1,17 @@
+{
+    "general": {
+        "log_level": 4,
+        "interface": "localhost"
+    },
+    "websockets": {
+        "enabled": true,
+        "server_name": "localhost",
+        "port": 8188
+    },
+    "rtp": {
+        "enabled": true
+    },
+    "video": {
+        "enabled": true
+    }
+}
