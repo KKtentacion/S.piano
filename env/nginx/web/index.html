@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<video id="video" autoplay playsinline></video>
+<script>
+    const serverUrl="localhost:8188";
+
+    const peerConnection=new RTCPeerConnection();
+    peerConnection.ontrack=(event)=>{
+        document.getElementById("video").srcObject=event.streams[0];
+    };
+
+    fetch(`${serverUrl}/webrtc`)
+        .then(res=>res.json())
+        .then(offer=>peerConnection.setRemoteDescription(new RTCSessionDescription(offer)))
+        .then(()=>peerConnection.createAnswer())
+        .then(answer=>peerConnection.setLocalDescription(answer));
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# ninja log v6
+2	184	7623535459240467	CMakeFiles/Client.dir/main.cpp.obj.ddi	8eccb9fb84738804
+2	29	7623535562005389	CMakeFiles/Client.dir/CXX.dd	3a8462ff1a29f40
+2	29	7623535562005389	E:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir/CXXModules.json	3a8462ff1a29f40
+1	205	7623536038161858	E:/S.piano/WebRTC/Client/build/cmake_install.cmake	b0bcd69d634f940d
+233	1403	7623534900659137	CMakeFiles/Client.dir/main.cpp.obj	b23801643e498028
+2	29	7623535562005389	CMakeFiles/Client.dir/main.cpp.obj.modmap	3a8462ff1a29f40
+1	10	7623536017821839	clean	c160c5a490c7629
+1	205	7623536038186959	build.ninja	b0bcd69d634f940d
+1404	1536	7623534912366598	Client.exe	65432883aeaf213f
+3	183	7623536061304531	CMakeFiles/Client.dir/main.cpp.obj.ddi	8eccb9fb84738804
+194	220	7623536063435543	CMakeFiles/Client.dir/CXX.dd	3a8462ff1a29f40
+194	220	7623536063435543	E:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir/CXXModules.json	3a8462ff1a29f40
+194	220	7623536063435543	CMakeFiles/Client.dir/main.cpp.obj.modmap	3a8462ff1a29f40
+221	1419	7623536063484532	CMakeFiles/Client.dir/main.cpp.obj	b23801643e498028
+1420	1533	7623536075472890	Client.exe	65432883aeaf213f

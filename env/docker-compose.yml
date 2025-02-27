@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  janus:
+    image: l3tnun/janus-gateway
+    container_name: janus
+    network_mode: "host"
+    restart: always
+    environment:
+      - "JANUS_LOG_LEVEL"
+    volumes:
+      - ./janus:/opt/janus/etc/janus
+    command: [ "janus","-F","/opt/janus/etc/janus" ]
+
+  nginx:
+    image: nginx
+    container_name: nginx
+    restart: always
+    volumes:
+      - ./nginx/web:/usr/share/nginx/html
+      - ./nginx/nginx01/nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"

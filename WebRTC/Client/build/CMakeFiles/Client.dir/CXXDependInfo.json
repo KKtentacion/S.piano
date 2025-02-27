@@ -1,0 +1,31 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/S.piano/WebRTC/Client/build",
+	"dir-cur-src" : "E:/S.piano/WebRTC/Client",
+	"dir-top-bld" : "E:/S.piano/WebRTC/Client/build",
+	"dir-top-src" : "E:/S.piano/WebRTC/Client",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"E:\\S.piano\\WebRTC\\Client\\include",
+		"E:\\ffmpeg-master-latest-win64-gpl-shared\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "E:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir",
+	"sources" : 
+	{
+		"CMakeFiles/Client.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/S.piano/WebRTC/Client/main.cpp"
+		}
+	}
+}
