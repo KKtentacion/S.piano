@@ -101,8 +101,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-hxaynq"
-      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-hxaynq"
+      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-8nej4h"
+      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-8nej4h"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "E:/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -112,16 +112,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-hxaynq'
+        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-8nej4h'
         
-        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_6b4a4
-        [1/2] E:\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_6b4a4.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_6b4a4.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_6b4a4.dir/CMakeCCompilerABI.c.obj -c E:/C++_tools/cmake-4.0.0-rc2-windows-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_6b4a4.dir/CMakeCCompilerABI.c.obj -o cmTC_6b4a4.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6b4a4.lib -Xlinker /pdb:cmTC_6b4a4.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_acb39
+        [1/2] E:\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_acb39.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_acb39.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_acb39.dir/CMakeCCompilerABI.c.obj -c E:/C++_tools/cmake-4.0.0-rc2-windows-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_acb39.dir/CMakeCCompilerABI.c.obj -o cmTC_acb39.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_acb39.lib -Xlinker /pdb:cmTC_acb39.pdb -Xlinker /version:0.0     && cd ."
         clang version 18.1.8
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: E:\\LLVM\\bin
-         "E:\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_6b4a4.exe "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\lib\\\\x64" "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:E:\\\\LLVM\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_6b4a4.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_6b4a4.lib /pdb:cmTC_6b4a4.pdb /version:0.0\x0d
+         "E:\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_acb39.exe "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\lib\\\\x64" "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:E:\\\\LLVM\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_acb39.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_acb39.lib /pdb:cmTC_acb39.pdb /version:0.0\x0d
         
       exitCode: 0
   -
@@ -182,8 +182,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-b49ldy"
-      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-b49ldy"
+      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-9okxpp"
+      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-9okxpp"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "E:/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -194,16 +194,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-b49ldy'
+        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-9okxpp'
         
-        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_57ead
-        [1/2] E:\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_57ead.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_57ead.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_57ead.dir/CMakeCXXCompilerABI.cpp.obj -c E:/C++_tools/cmake-4.0.0-rc2-windows-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_57ead.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_57ead.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_57ead.lib -Xlinker /pdb:cmTC_57ead.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_498ca
+        [1/2] E:\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_498ca.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_498ca.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_498ca.dir/CMakeCXXCompilerABI.cpp.obj -c E:/C++_tools/cmake-4.0.0-rc2-windows-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_498ca.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_498ca.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_498ca.lib -Xlinker /pdb:cmTC_498ca.pdb -Xlinker /version:0.0     && cd ."
         clang version 18.1.8
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: E:\\LLVM\\bin
-         "E:\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_57ead.exe "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\lib\\\\x64" "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:E:\\\\LLVM\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_57ead.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_57ead.lib /pdb:cmTC_57ead.pdb /version:0.0\x0d
+         "E:\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_498ca.exe "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\lib\\\\x64" "-libpath:E:\\\\VS\\\\VC\\\\Tools\\\\MSVC\\\\14.38.33130\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:E:\\\\LLVM\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_498ca.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_498ca.lib /pdb:cmTC_498ca.pdb /version:0.0\x0d
         
       exitCode: 0
   -
@@ -267,8 +267,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-2gul22"
-      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-2gul22"
+      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-f8lt8e"
+      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-f8lt8e"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "E:/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -278,11 +278,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-2gul22'
+        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-f8lt8e'
         
-        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_16ded
-        [1/2] E:\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_16ded.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_16ded.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_16ded.dir/feature_tests.cxx.obj -c E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-2gul22/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_16ded.dir/feature_tests.cxx.obj -o cmTC_16ded.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_16ded.lib -Xlinker /pdb:cmTC_16ded.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_d9814
+        [1/2] E:\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_d9814.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_d9814.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_d9814.dir/feature_tests.cxx.obj -c E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-f8lt8e/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_d9814.dir/feature_tests.cxx.obj -o cmTC_d9814.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d9814.lib -Xlinker /pdb:cmTC_d9814.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -297,8 +297,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-w3mc5a"
-      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-w3mc5a"
+      source: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-ru7s4j"
+      binary: "E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-ru7s4j"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "E:/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -308,11 +308,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-w3mc5a'
+        Change Dir: 'E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-ru7s4j'
         
-        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_68ee1
-        [1/2] E:\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_68ee1.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_68ee1.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_68ee1.dir/feature_tests.cxx.obj -c E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-w3mc5a/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_68ee1.dir/feature_tests.cxx.obj -o cmTC_68ee1.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_68ee1.lib -Xlinker /pdb:cmTC_68ee1.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): E:/C++_tools/ninja/ninja.exe -v cmTC_1e763
+        [1/2] E:\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_1e763.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_1e763.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_1e763.dir/feature_tests.cxx.obj -c E:/S.piano/WebRTC/Client/build/CMakeFiles/CMakeScratch/TryCompile-ru7s4j/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1e763.dir/feature_tests.cxx.obj -o cmTC_1e763.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1e763.lib -Xlinker /pdb:cmTC_1e763.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
 ...

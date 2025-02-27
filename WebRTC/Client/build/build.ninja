@@ -49,27 +49,27 @@ cmake_ninja_workdir = E$:/S.piano/WebRTC/Client/build/
 
 build cmake_object_order_depends_target_Client: phony || .
 
-build CMakeFiles/Client.dir/main.cpp.obj.ddi: CXX_SCAN__Client_Debug E$:/S.piano/WebRTC/Client/main.cpp || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles\Client.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Client.dir\main.cpp.obj.ddi
+build CMakeFiles/Client.dir/src/main.cpp.obj.ddi: CXX_SCAN__Client_Debug E$:/S.piano/WebRTC/Client/src/main.cpp || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles\Client.dir\src\main.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Client.dir\src\main.cpp.obj.ddi
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   INCLUDES = -IE:/S.piano/WebRTC/Client/include -IE:/ffmpeg-master-latest-win64-gpl-shared/include
-  OBJ_FILE = CMakeFiles\Client.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Client.dir\main.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\Client.dir\src\main.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Client.dir\src\main.cpp.obj.ddi.i
 
-build CMakeFiles/Client.dir/main.cpp.obj: CXX_COMPILER__Client_scanned_Debug E$:/S.piano/WebRTC/Client/main.cpp | CMakeFiles/Client.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_Client CMakeFiles/Client.dir/CXX.dd
+build CMakeFiles/Client.dir/src/main.cpp.obj: CXX_COMPILER__Client_scanned_Debug E$:/S.piano/WebRTC/Client/src/main.cpp | CMakeFiles/Client.dir/src/main.cpp.obj.modmap || cmake_object_order_depends_target_Client CMakeFiles/Client.dir/CXX.dd
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\Client.dir\main.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Client.dir\main.cpp.obj.modmap
+  DEP_FILE = CMakeFiles\Client.dir\src\main.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Client.dir\src\main.cpp.obj.modmap
   FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   INCLUDES = -IE:/S.piano/WebRTC/Client/include -IE:/ffmpeg-master-latest-win64-gpl-shared/include
   OBJECT_DIR = CMakeFiles\Client.dir
-  OBJECT_FILE_DIR = CMakeFiles\Client.dir
+  OBJECT_FILE_DIR = CMakeFiles\Client.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Client.dir\
-  TARGET_PDB = Client.pdb
+  TARGET_PDB = E:\S.piano\WebRTC\Client\bin\Client.pdb
   dyndep = CMakeFiles/Client.dir/CXX.dd
 
-build CMakeFiles/Client.dir/CXX.dd | E$:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir/CXXModules.json CMakeFiles/Client.dir/main.cpp.obj.modmap: CXX_DYNDEP__Client_Debug CMakeFiles/Client.dir/main.cpp.obj.ddi | E$:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir/CXXDependInfo.json
+build CMakeFiles/Client.dir/CXX.dd | E$:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir/CXXModules.json CMakeFiles/Client.dir/src/main.cpp.obj.modmap: CXX_DYNDEP__Client_Debug CMakeFiles/Client.dir/src/main.cpp.obj.ddi | E$:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -77,21 +77,20 @@ build CMakeFiles/Client.dir/CXX.dd | E$:/S.piano/WebRTC/Client/build/CMakeFiles/
 
 
 #############################################
-# Link the executable Client.exe
+# Link the executable E:\S.piano\WebRTC\Client\bin\Client.exe
 
-build Client.exe: CXX_EXECUTABLE_LINKER__Client_Debug CMakeFiles/Client.dir/main.cpp.obj
+build E$:/S.piano/WebRTC/Client/bin/Client.exe: CXX_EXECUTABLE_LINKER__Client_Debug CMakeFiles/Client.dir/src/main.cpp.obj | E$:/ffmpeg-master-latest-win64-gpl-shared/lib/avcodec.lib E$:/ffmpeg-master-latest-win64-gpl-shared/lib/avformat.lib E$:/ffmpeg-master-latest-win64-gpl-shared/lib/avutil.lib E$:/ffmpeg-master-latest-win64-gpl-shared/lib/avdevice.lib E$:/ffmpeg-master-latest-win64-gpl-shared/lib/swscale.lib
   CONFIG = Debug
   FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   LINK_FLAGS = -Xlinker /subsystem:console -fuse-ld=lld-link
-  LINK_LIBRARIES = -lavcodec  -lavformat  -lswscale  -lavdevice  -lavutil  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
-  LINK_PATH = -LE:/ffmpeg-master-latest-win64-gpl-shared/lib
+  LINK_LIBRARIES = E:/ffmpeg-master-latest-win64-gpl-shared/lib/avcodec.lib  E:/ffmpeg-master-latest-win64-gpl-shared/lib/avformat.lib  E:/ffmpeg-master-latest-win64-gpl-shared/lib/avutil.lib  E:/ffmpeg-master-latest-win64-gpl-shared/lib/avdevice.lib  E:/ffmpeg-master-latest-win64-gpl-shared/lib/swscale.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
   OBJECT_DIR = CMakeFiles\Client.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\Client.dir\
-  TARGET_FILE = Client.exe
-  TARGET_IMPLIB = Client.lib
-  TARGET_PDB = Client.pdb
+  TARGET_FILE = E:\S.piano\WebRTC\Client\bin\Client.exe
+  TARGET_IMPLIB = E:\S.piano\WebRTC\Client\bin\Client.lib
+  TARGET_PDB = E:\S.piano\WebRTC\Client\bin\Client.pdb
 
 
 #############################################
@@ -120,7 +119,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Client: phony Client.exe
+build Client: phony E$:/S.piano/WebRTC/Client/bin/Client.exe
+
+build Client.exe: phony E$:/S.piano/WebRTC/Client/bin/Client.exe
 
 # =============================================================================
 # Folder targets.
@@ -130,7 +131,7 @@ build Client: phony Client.exe
 #############################################
 # Folder: E:/S.piano/WebRTC/Client/build
 
-build all: phony Client.exe
+build all: phony E$:/S.piano/WebRTC/Client/bin/Client.exe
 
 # =============================================================================
 # Built-in targets

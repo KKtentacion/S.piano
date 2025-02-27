@@ -22,10 +22,10 @@
 	"module-dir" : "E:/S.piano/WebRTC/Client/build/CMakeFiles/Client.dir",
 	"sources" : 
 	{
-		"CMakeFiles/Client.dir/main.cpp.obj" : 
+		"CMakeFiles/Client.dir/src/main.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "E:/S.piano/WebRTC/Client/main.cpp"
+			"source" : "E:/S.piano/WebRTC/Client/src/main.cpp"
 		}
 	}
 }

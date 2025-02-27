@@ -1,4 +1,5 @@
-CMakeFiles\Client.dir\main.cpp.obj.ddi: E:\S.piano\WebRTC\Client\main.cpp \
+CMakeFiles\Client.dir\src\main.cpp.obj.ddi: \
+  E:\S.piano\WebRTC\Client\src\main.cpp \
   E:\VS\VC\Tools\MSVC\14.38.33130\include\iostream \
   E:\VS\VC\Tools\MSVC\14.38.33130\include\yvals_core.h \
   E:\VS\VC\Tools\MSVC\14.38.33130\include\vcruntime.h \
